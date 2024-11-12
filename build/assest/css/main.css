@@ -1,0 +1,815 @@
+/* Home Pahe */
+.home-page-content{
+  background-image: url('https://s3-alpha-sig.figma.com/img/40aa/60c3/c0e8e629868e081336d56cf2d03aade3?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nWR3sTmcCnEvfFQIqEeY3SU9PzapEDb5BCywzXww0wFPi2ahXndQfJF-JA01nwWFEveIrnKO3GvcvHQyNMWxMIZnuqB-phxXFuS86soJjey3vqrQPi1pcyKR4vEE25SfQM3wKrnfyoy59LaPljkFG1-2hdJo9z5jq-M5spINs7IBiHPinrni13Av0mXe9sjihCS2MTw0sr0pwMg6vOroXkH6Z7-Ju7W8PyxGKdxtSKkzmk7aZRvocKAjjd1Oy9k0YW7YTvK-SUTvRNgP5zLe8Z0ZMNyg7H9sKkFiLJwwpnUBMfLbHLufDiDXN3qUVvFvLDSszfqQ29MtoOxc1~NRkg__');
+  background-size: 100vw 100vh;
+}
+.home-page-content img{
+height: 180px;
+width: 180px;
+border-radius: 12px;
+border: 1px solid #000000;
+}
+/* Layot Main */
+.layout-pages{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://s3-alpha-sig.figma.com/img/40aa/60c3/c0e8e629868e081336d56cf2d03aade3?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nWR3sTmcCnEvfFQIqEeY3SU9PzapEDb5BCywzXww0wFPi2ahXndQfJF-JA01nwWFEveIrnKO3GvcvHQyNMWxMIZnuqB-phxXFuS86soJjey3vqrQPi1pcyKR4vEE25SfQM3wKrnfyoy59LaPljkFG1-2hdJo9z5jq-M5spINs7IBiHPinrni13Av0mXe9sjihCS2MTw0sr0pwMg6vOroXkH6Z7-Ju7W8PyxGKdxtSKkzmk7aZRvocKAjjd1Oy9k0YW7YTvK-SUTvRNgP5zLe8Z0ZMNyg7H9sKkFiLJwwpnUBMfLbHLufDiDXN3qUVvFvLDSszfqQ29MtoOxc1~NRkg__');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+
+
+.content {
+    position: relative;
+    margin-left: 24vw;
+    padding: 50px 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .page-name-bandage{
+    position: absolute;
+    top: 25px;
+    left: 36%;
+    z-index: 8;
+  }
+
+.content-item {
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 14px;
+}
+
+
+/* =================Profile Frame============== */
+.user-profile-frame{
+    position: relative;
+    width: 40vw;
+    height: 36vw;
+    background-image: url('https://s3-alpha-sig.figma.com/img/d827/d757/9ade72964d79a51878dceb7e87ddf743?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bMh3MhtMg4yahidn2hO24inXeXMOh-sHVokLaGRUgPZqrd9FyB5igfZO2rHrrISuQN4hnPZCQU6mLt61v7TcNxg1Bv-WsbLgbIDLsEVMx9FvJs7v0NauF9vUxLXq-xSi~jw6Ac6B6SwcP1JgkQ4tGYDdhALq2S0Gkjh4V8wPqC6AQpi5rLj620KhKdPhmp~a3Ys6vHi8gxmwOLgWViR7pVDercHblsdd2O5SB7sINtZlByvgkUWYDpUfrqvgReqp0l1Vu79NpPMMEoaN2PITxbKe-YDp7xtwGbzkCR93v-HCRilOPUISusEWTASQiFqAeWcgO-Y43WeqrxhsrgH9LQ__');
+    background-size: 40vw 36vw;
+    background-repeat: no-repeat;
+    background-position: center; 
+    
+}
+
+.profile-image-frame{
+width: 22vw;
+height: 22vw;
+border: 5px solid #000000;
+position: relative;
+}
+.profile-image-frame img{
+    width: 100%;
+    height: auto;
+}
+
+.weapons-item{
+  width: 60px;
+  height: 60px;
+  border: 3px solid #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.weapons-item img{
+    width: 60px;
+    height: 60px
+}
+
+.special-item1{
+    position: absolute;
+    bottom: -30px;
+    left: 20px;
+}
+.special-item2{
+    position: absolute;
+    bottom: -50px;
+    left: 40%;
+}
+.special-item3{
+    position: absolute;
+    bottom: -30px;
+    right: 20px;
+}
+
+.profile-activity-content{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+
+
+
+/* =============Back Pack============== */
+.back-pack-content{
+    position: relative;
+    width: 30vw;
+    height: 85vh;
+    background-image: url('https://s3-alpha-sig.figma.com/img/deb5/e6b4/2f4ebb67c11c94e737a1c9a55d8045af?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JRhxzi6m1FyC3Oepfx4OIzFdF6KLj7ciRa69JLl-RZIdKq5VwHnxYm1QN5J8bp7-TUt1rzr9bT7k~uzEj1m5Bwg1Gnyx-7haij51Mq7yuuX7mUMhTtPrEnoKNBNDDi00htzcJAwBhG7rDtlXcClAFSA77aVh34T-OcBc0OespY6vdshty5AXj8W7FIrQlN9cRD7T0wU~TCGev-2uvgIsPUIIV2DT4kSr07U2ZnnCnZMSh80W8V-ZunHtzRK8Yd-vPw15FcirXMhTueitTsufxpVM2Yk5xUIOyVPTYpt0JO1WvbtWv0gB7sjutBwY-u7S6hReLSJbAn2q~dAb5VUq6A__');
+    background-size: 30vw 85vh;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.back-pack-item-area{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 90px 0 0 0;
+    gap: 16px;
+}
+
+.backpack-weapons-list{
+    width: 80%;
+    height: 50vh;
+    overflow-y: auto;
+}
+/* Scrollbar track */
+.backpack-weapons-list::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Scrollbar track background */
+  .backpack-weapons-list::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+  }
+  
+  /* Scrollbar thumb (scroll handle) */
+  .backpack-weapons-list::-webkit-scrollbar-thumb {
+    background-color: transparent; 
+    border-radius: 10px;
+    border: 2px solid transparent; 
+  }
+  
+  /* Scrollbar on hover */
+  .backpack-weapons-list::-webkit-scrollbar-thumb:hover {
+    background-color: transparent;
+  }
+  
+  /* Scrollbar corner styling for both axes */
+  .backpack-weapons-list::-webkit-scrollbar-corner {
+    background-color: transparent;
+  }
+  .back-pack-footer{
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 18px;
+    width: 80%;
+  }
+.discard-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+.discard-item span{
+    font-family: MedievalSharp;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+
+
+/* ================character-edit====================== */
+.character-edit-content{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.character-edit-frame{
+    position: relative;
+    width: 45vw;
+    height: 36vw;
+    background-image: url('https://s3-alpha-sig.figma.com/img/d827/d757/9ade72964d79a51878dceb7e87ddf743?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bMh3MhtMg4yahidn2hO24inXeXMOh-sHVokLaGRUgPZqrd9FyB5igfZO2rHrrISuQN4hnPZCQU6mLt61v7TcNxg1Bv-WsbLgbIDLsEVMx9FvJs7v0NauF9vUxLXq-xSi~jw6Ac6B6SwcP1JgkQ4tGYDdhALq2S0Gkjh4V8wPqC6AQpi5rLj620KhKdPhmp~a3Ys6vHi8gxmwOLgWViR7pVDercHblsdd2O5SB7sINtZlByvgkUWYDpUfrqvgReqp0l1Vu79NpPMMEoaN2PITxbKe-YDp7xtwGbzkCR93v-HCRilOPUISusEWTASQiFqAeWcgO-Y43WeqrxhsrgH9LQ__');
+    background-size: 45vw 36vw;
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.character-edit-frame img{
+width: 14vw;
+height: 14vw;
+}
+
+
+
+
+
+/* adventure */
+
+.adventure-content{
+ width: 100%;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+
+
+.quest-board-bg{
+    background-image: url('https://s3-alpha-sig.figma.com/img/2321/b676/4b49bf75705a4543e2eecf06eea8a4ba?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=djg5EY~wjfZLrROFsoOY1Vdk5y3xciNjUMNyFW7R5FifGaxLVqmOY2Idqb8EzBprKkBtO2~hEaIf55GduAFNf6ROHp6~I~W2OvSczijvpBBMaxXB5jC4dDEwAxznyCNidhPokiiZ-bEfGNV2AAXjcc5SQ4bD8CkjMVw7jkVxo7l27sI3sEb7ilEnqbFWBe49kqyN~zQgDUJu4QTPFRmAQgL4U5K9s4J4tNr0DU~mpoQqDKR99OnYmPDt8lC4gt3vQSd40~5ntZF7jIf8Y-j4DqnxJEj8~43wGYqp4DOqDtP70undMKthjcW~GVK04FxprOx~hGbbg7HjIrkUuAaktw__') !important;
+}
+
+.journey-bg{
+    background-image: url('https://s3-alpha-sig.figma.com/img/3cb9/8123/9801332c69c7e3fd59e542c440e0095b?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TsmLfntPtCgqHuuzcvlbN1DMbWD0IbXZtIjlGFjH4npB8~WNitgaczpB1Ikfq~EPIP8rC-jjMWZsNVtZOdNP-CJPRKVnOMwplCi9WqPMi8cBqqfKD7uHmJPl8eHDPgMCnNlPHDntZ4mfSRyEZ0p9NWwJURfzoaVyp7Ji3bVfcExuJSwiuycf7hET26On1CkFYuNYR~sFfd-8UljhS7IN~L-GxDIwq8Ub2dGP0wZG6cRfGxuhKhOM8pyE2~hJD0c0zHi6ezGFPmn6r6XTV42Jpf2GXDQfNMxLUevUcPaV73Q2TJanLIT4gnqdg51LJvAB2vjZjyrbACV6EjVVyBMlug__') !important;
+}
+
+.Adventure_game-bg{
+    background-image: url('https://s3-alpha-sig.figma.com/img/73a6/0444/2fccde77deb641da6a51274455908880?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TdbQrWzJnNvmH4Q17zLesVu72i14mvxO6PNnmcJkVd1RpkfjauCfkIY1Nzqfihmsi1nm6BwFg5gpGmeEKybZ5V6A~UMO-0d~zF12E6gcbi9BjYIfsDsJqVSOEy6eeN~T7yNo9n5ZQylLlRoFMcL7gnr6rjaXxik7OMCfBAvl9l~ZiXgZjpLTLiA-huEyTWX3AjjUOI4kWbSj3SMWq-TCcOsUwFg0puRRtkQ~Q6-05wtcrbMVinqzcQFNaW4oNpaoh9kJxkr0Dh2FjTMhzoen7b~gPBdGJAHpzJQ~C-eOcjwFVrESecOUvQQR3lfJQJ-BhZSMV8C4aTMijYPrNx0lQQ__') !important;   
+}
+
+.quest-board-frame{
+    position: relative;
+    width: 60vw;
+    height: 88vh;
+    background-image: url('https://s3-alpha-sig.figma.com/img/c3db/e94a/99f53455f461f9202d61f20f5156eb6c?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iUKXmpgLOiN~u8XdHVmGwiT7K0QcdsmSs~VGiMpULEPiuGyAFsOWaSj1YKr8TIGY3~T82i-~1LMSZOinRB~dEOct-OPZSXlSzecU4Tt~ufPwA4cnT5f-Hb1UVMDT5GLgQWXXIlZivYo7nKkkD76euhog9vYLCiaKxAgfqjO4dZoLsTo60dcFMcXk7YMbRGmvtj6DpS~wqp709hZsmhezIdWTYijegkPEqMw4pTb5CUlBWxS0ow6kI5xoFwn8ARgC-Tw5433Lgj3ne2Udff5QVwjXPbugLHN4s~ekKccTC7dHM2QkbMoJRBsHb4Z-C2CCH1iSBMhfGrhTiFzv~e0ELg__');
+    background-size: 60vw 88vh;
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 40vh;
+}
+
+
+
+.journey-content{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+/* Game Play Frame */
+.game-frame-content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 80px;
+   }
+.game-play-vs-card{
+    position: relative;
+    width: 25vw;
+    height: auto;
+    background: #5B455E82;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+}
+
+.game-play-player_img{
+    position: relative;
+    margin-top: 3vw;
+    width: 18vw;
+    width: 18vw;
+    border: 5px solid #000000
+}
+.game-play-vs-card .level-circle-frame{
+    top: 20px;
+}
+
+.game-play-player_img img{
+width: 18vw;
+height: 18vw;
+}
+
+/* Popup */
+.modal {
+    display: block;
+    position: fixed; 
+    z-index: 9999999; 
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe00;
+    margin: auto;
+    padding: 0;
+    width: 70%;
+    z-index: 999999;
+    position: relative;
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: -15px;
+    right: 4%;
+    color: #ff0000;
+    font-size: 30px;
+    font-weight: bold;
+    z-index: 99999999;
+    background: #2E2737;
+ 
+    padding: 0 12px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #F0DCAE;
+
+
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #920d0d;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .quest-popup-frame{
+    position: relative;
+    width: 30vw;
+    height: 30vw;
+    background-image: url('https://s3-alpha-sig.figma.com/img/d827/d757/9ade72964d79a51878dceb7e87ddf743?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bMh3MhtMg4yahidn2hO24inXeXMOh-sHVokLaGRUgPZqrd9FyB5igfZO2rHrrISuQN4hnPZCQU6mLt61v7TcNxg1Bv-WsbLgbIDLsEVMx9FvJs7v0NauF9vUxLXq-xSi~jw6Ac6B6SwcP1JgkQ4tGYDdhALq2S0Gkjh4V8wPqC6AQpi5rLj620KhKdPhmp~a3Ys6vHi8gxmwOLgWViR7pVDercHblsdd2O5SB7sINtZlByvgkUWYDpUfrqvgReqp0l1Vu79NpPMMEoaN2PITxbKe-YDp7xtwGbzkCR93v-HCRilOPUISusEWTASQiFqAeWcgO-Y43WeqrxhsrgH9LQ__');
+    background-size: 30vw 30vw;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.quest-popup-frame-content{
+    width: 80%;
+    height: 100%;
+    padding: 7vh 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.quest-popup-frame-footer{
+    width: 60% !important;
+    position: absolute !important;
+   bottom: 40px;
+    left: 20%;
+}
+
+.quest-popup-frame.win{
+    width: 25vw;
+    height: 25vw;
+    background-size: 25vw 25vw;
+
+}
+
+.win-popup-frame-footer{
+    width: 80% !important;
+    position: absolute !important;
+   bottom: 40px;
+    left: 10%;
+}
+
+/* Progress */
+.progress-container {
+    width: 80%; /* adjust as needed */
+    background: #2E2737;
+    border: 1px solid #F0DCAE;
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+}
+
+.progress-bar {
+    width: 0%; /* adjust to show progress */
+    background: #2B4430;
+    height: 30px; /* adjust height as needed */
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-text {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #F0DCAE;
+    font-size: 1.5em; /* adjust size */
+    font-family: MedievalSharp;
+    text-shadow: 
+    -3px 0 #000, 
+     3px 0 #000,  
+     0 -3px #000,
+     0 3px #000;
+}
+
+.progress-max-text {
+    position: absolute;
+    right: 15px; /* adjust as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #5C455E;
+    font-size: 1.5em;
+    font-family: MedievalSharp;
+    text-shadow: 
+    -3px 0 #000, 
+     3px 0 #000,  
+     0 -3px #000,
+     0 3px #000;
+}
+
+
+/* Progress 2 */
+.profile-card-progress-area{
+position: absolute;
+bottom: -15px;
+left: 1vw;
+}
+.profile-card-progress {
+    width: 16vw; /* Adjust the width as needed */
+    height: 25px; /* Adjust the height as needed */
+    background: #5B465E;
+    border: 2px solid #000000;
+    border-radius: 28px;
+    overflow: hidden;
+    position: relative;
+}
+
+.profile-card-progress-bar {
+    width: 85%; /* Adjust this percentage based on progress */
+    height: 100%;
+    background: #7E2929;
+    border-radius: 22px;
+    position: absolute;
+    border: 1px solid #000000;
+}
+
+.profile-card-progress-text {
+    top: -10px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px !important;
+}
+
+
+
+
+/* progress3 */
+.progress-container3 {
+  width: 20%; /* adjust as needed */
+  background: #2E2737;
+  border: 1px solid #F0DCAE;
+  border-radius: 10px;
+  padding: 5px;
+  position: relative;
+}
+
+.progress-bar3 {
+  width: 0%; /* adjust to show progress */
+  background: #2B4430;
+  height: 30px; /* adjust height as needed */
+  border-radius: 7px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================== */
+/* Attack Animation Container */
+.attack-animation {
+    position: absolute;
+    font-size: 40px;
+    z-index: 10;
+    transition: transform 2s ease-in-out, opacity 2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Animation for the graphics (attack) movement */
+  
+  /* Keyframes for the attack animation */
+  .attack-animation.attack-to-player {
+    animation: attackToPlayer 0.5s ease-in-out forwards;
+    animation-fill-mode: forwards;
+    will-change: transform, opacity;
+  }
+  
+  @keyframes attackToPlayer {
+    0% {
+      transform: translateX(0) translateY(0);
+      opacity: 1;
+    }
+    5% {
+      transform: translateX(10px) translateY(-2px); /* Slight initial movement */
+      opacity: 1;
+    }
+    10% {
+      transform: translateX(20px) translateY(-5px); /* Start to rise */
+      opacity: 1;
+    }
+    15% {
+      transform: translateX(30px) translateY(-8px); /* Continue upward */
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(40px) translateY(-12px); /* Continue rising */
+      opacity: 1;
+    }
+    25% {
+      transform: translateX(50px) translateY(-16px); /* Higher rise */
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(60px) translateY(-20px); /* Peak */
+      opacity: 1;
+    }
+    35% {
+      transform: translateX(70px) translateY(-18px); /* Begin descent */
+      opacity: 1;
+    }
+    40% {
+      transform: translateX(80px) translateY(-15px); /* Continuing descent */
+      opacity: 1;
+    }
+    45% {
+      transform: translateX(90px) translateY(-12px); /* Mid descent */
+      opacity: 1;
+    }
+    50% {
+      transform: translateX(100px) translateY(-10px); /* Near the player */
+      opacity: 1;
+    }
+    55% {
+      transform: translateX(110px) translateY(-8px); /* Continuing towards player */
+      opacity: 1;
+    }
+    60% {
+      transform: translateX(120px) translateY(-6px); /* Continue downward */
+      opacity: 1;
+    }
+    65% {
+      transform: translateX(130px) translateY(-4px); /* Close to the target */
+      opacity: 1;
+    }
+    70% {
+      transform: translateX(140px) translateY(-2px); /* Almost there */
+      opacity: 1;
+    }
+    75% {
+      transform: translateX(150px) translateY(0); /* Just above the target */
+      opacity: 0.9;
+    }
+    80% {
+      transform: translateX(160px) translateY(2px); /* Final approach */
+      opacity: 0.8;
+    }
+    85% {
+      transform: translateX(170px) translateY(4px); /* Slight overshoot */
+      opacity: 0.7;
+    }
+    90% {
+      transform: translateX(180px) translateY(6px); /* Close to final */
+      opacity: 0.6;
+    }
+    95% {
+      transform: translateX(190px) translateY(4px); /* Almost in position */
+      opacity: 0.4;
+    }
+    100% {
+      transform: translateX(200px) translateY(0); /* End position */
+      opacity: 0;
+    }
+  }
+  
+  
+  .attack-animation.attack-to-opponent {
+    animation: attackToOpponent 1s ease-in-out forwards;
+    animation-fill-mode: forwards;
+    will-change: transform, opacity;
+  }
+  
+  @keyframes attackToOpponent {
+    0% {
+      transform: translateX(0) translateY(0);
+      opacity: 1;
+    }
+    5% {
+      transform: translateX(-10px) translateY(-2px); /* Slight initial movement */
+      opacity: 1;
+    }
+    10% {
+      transform: translateX(-20px) translateY(-4px); /* Begin the attack */
+      opacity: 1;
+    }
+    15% {
+      transform: translateX(-30px) translateY(-8px); /* Start rising */
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(-40px) translateY(-12px); /* Continue attack upward */
+      opacity: 1;
+    }
+    25% {
+      transform: translateX(-60px) translateY(-16px); /* Mid way */
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(-80px) translateY(-20px); /* Reach the peak */
+      opacity: 1;
+    }
+    35% {
+      transform: translateX(-100px) translateY(-16px); /* Descending */
+      opacity: 1;
+    }
+    40% {
+      transform: translateX(-120px) translateY(-12px); /* Continuing down */
+      opacity: 1;
+    }
+    45% {
+      transform: translateX(-140px) translateY(-8px); /* Almost at the target */
+      opacity: 1;
+    }
+    50% {
+      transform: translateX(-160px) translateY(-4px); /* Nearing target */
+      opacity: 1;
+    }
+    55% {
+      transform: translateX(-170px) translateY(0); /* Closer to the opponent */
+      opacity: 1;
+    }
+    60% {
+      transform: translateX(-180px) translateY(2px); /* Slight overshoot */
+      opacity: 0.9;
+    }
+    65% {
+      transform: translateX(-190px) translateY(4px); /* Continue towards the opponent */
+      opacity: 0.8;
+    }
+    70% {
+      transform: translateX(-195px) translateY(6px); /* Almost at the target */
+      opacity: 0.7;
+    }
+    75% {
+      transform: translateX(-200px) translateY(8px); /* Final approach */
+      opacity: 0.6;
+    }
+    80% {
+      transform: translateX(-200px) translateY(6px); /* Slight bounce */
+      opacity: 0.5;
+    }
+    85% {
+      transform: translateX(-200px) translateY(4px); /* Slight overshoot */
+      opacity: 0.4;
+    }
+    90% {
+      transform: translateX(-200px) translateY(2px); /* Close to final */
+      opacity: 0.3;
+    }
+    95% {
+      transform: translateX(-200px) translateY(0); /* Just above the target */
+      opacity: 0.2;
+    }
+    100% {
+      transform: translateX(-200px) translateY(0); /* Final position */
+      opacity: 0;
+    }
+  }
+  
+  
+
+
+
+
+  .attack-animation.attack-to-opponent {
+    position: relative;
+    animation: attackToOpponent 1s ease-in-out forwards;
+    animation-fill-mode: forwards;
+    will-change: transform, opacity;
+  }
+  
+  .attack-animation.attack-to-opponent::after {
+    content: "💥"; /* Emoji to be shown */
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 32px;
+    opacity: 0; /* Initially hidden */
+    pointer-events: none; /* To prevent interaction */
+    animation: showEmoji 0.5s forwards 1s; /* Wait 1 second before showing the emoji */
+  }
+  
+  @keyframes attackToOpponent {
+    0% {
+      transform: translateX(0) translateY(0);
+      opacity: 1;
+    }
+    50% {
+      transform: translateX(-200px) translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(-200px) translateY(0);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes showEmoji {
+    0% {
+      opacity: 0; /* Initially hidden */
+    }
+    100% {
+      opacity: 1; /* Show emoji */
+    }
+  }
+  
+  /* Effect Animation */
+  .attack-effect {
+    font-size: 30px;
+    position: absolute;
+    z-index: 5;
+    animation: showEffect 1s forwards;
+  }
+  
+  @keyframes showEffect {
+    0% {
+      width: 30px;
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      width: 60px;
+
+    }
+  }
+  

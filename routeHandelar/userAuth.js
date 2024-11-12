@@ -6,8 +6,8 @@ const authCheck = require('../middlewares/authCheck');
 const checkValidEmail = require('../middlewares/checkValidEmail');
 const passwordhashing = require('../middlewares/passwordhashing');
 const bcrypt = require('bcrypt');
-const Ad = require('../models/Ad');
 const getUserLevel = require('../middlewares/getUserLevel');
+const calculateUserStats = require('../middlewares/calculateUserStats');
 
 /////Signup New User Data
 router.post('/sign-up', async (req, res) => {
@@ -85,11 +85,9 @@ router.post('/login', async (req, res) => {
       
       if(req.userData&&req.userData?.status === "active"){
         const userData = req.userData.toJSON();
-        const levelXp = await getUserLevel(userData.xp);
-        userData.level = levelXp.level;
-        userData.nextXP = levelXp.nextLevelXP;
-        console.log(userData);
-        // userData.token = parseFloat(userData.token);
+        userData.userStats = await calculateUserStats(userData);
+        userData.silver = parseFloat(userData.silver);
+        userData.gold = parseFloat(userData.gold);
     
         //console.log(req.userData)
         res.status(200).json(userData);
@@ -98,7 +96,8 @@ router.post('/login', async (req, res) => {
         res.status(500).send('Authorization failed!');
       }
     }
-    catch{
+    catch(err){
+      console.log(err);
       res.status(500).send('Server Error');
     }
     });
@@ -117,6 +116,32 @@ router.post('/login', async (req, res) => {
        
         //console.log(req.userData)
         res.status(200).json(user);
+      }
+      else{
+        res.status(500).send('Authorization failed!');
+      }
+    }
+    catch{
+      res.status(500).send('Server Error');
+    }
+    });
+
+
+          /////game-win
+  router.post('/game-win', authCheck, async (req, res)=>{
+    try{
+      
+      if(req.userData){
+      const user = await User.findOne({ where: { id: req.userData.id }});
+
+     const updateUserData =  await user.update({
+      xp: parseFloat(req.body.xpReword)+parseFloat(user.xp),
+      silver: parseFloat(req.body.silverReword)+parseFloat(user.xp),
+      gold: req.body.goldReword
+      })
+       
+        //console.log(req.userData)
+        res.status(200).json(updateUserData);
       }
       else{
         res.status(500).send('Authorization failed!');

@@ -1,0 +1,97 @@
+.auth-pages{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://s3-alpha-sig.figma.com/img/2f20/2e3e/c526899162f2c3ef5d068d216478b461?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qmmch15ilkPXZsZxtAGT9oHoVUggrwZpSqUM~stn30daNmT3DkqzbmN4Ze8Qrm6jmv13qSFn3P0r60G0BJU-igm1EEGwBGpTgQ6NvA3wfi3xQzyrMD9F6fDo1ZW~uA6AB8LBHX1NswxV7btKq4YS-O6H9Z6bq3UglPiJ40o8CIFS~iH12S4w58mz1qdzyVKAVXSw7CDBhWLHIrftQzFg4wSfYbHhNZovlrs8-dD05MyZPsBx2f0VdYxcXyt751MVtKUM-zAYBzUxa6SgfJbr~drM65Pj451bsYb-hiu5fpx1cO8Cdl9Ru1xay4TgtN6pViI1PFyh~p~36jHtsSLlxA__');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.auth-header{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-header span{
+    font-family: Yaldevi Colombo Medium;
+    font-size: 40px;
+    font-weight: 500; 
+    color: aliceblue;
+}
+.auth-footer{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.auth-footer img{
+width: 45px;
+height: 45px;
+}
+
+.register-with-agree{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 22px;
+}
+.register-with-agree span{
+color: #000000;
+font-family: MedievalSharp;
+font-size: 28px;
+font-weight: 500;
+position: absolute;
+bottom: -50px;
+left: -80px;
+}
+.register-with-agree input[type="checkbox"] {
+    appearance: none; /* Remove default styling */
+    -webkit-appearance: none; /* For Safari */
+    width: 35px;
+    height: 35px;
+    border: 1px solid #F0DCAE;
+    border-radius: 4px;
+    background-color: #7B5B7A9C;
+    cursor: pointer;
+    position: relative;
+}
+
+/* Add a style for the "checked" state */
+
+
+.register-with-agree input[type="checkbox"]:checked::after {
+    content: '✔'; /* Unicode checkmark */
+    color: #8F8F8F;
+    font-size: 30px;
+    font-family: MedievalSharp;
+font-weight: 500;
+    position: absolute;
+    top: -5px;
+    left: 4px;
+}
+.input-group-with-err{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}

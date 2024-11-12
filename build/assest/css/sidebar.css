@@ -1,0 +1,160 @@
+/* Sidebar */
+/* Sidebar Styling */
+/* =========================== */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 24vw;
+  background-color: #213868;
+  transition: transform 0.3s ease;
+  z-index: 1000;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-image: url('https://s3-alpha-sig.figma.com/img/36c5/a1e6/8bb1689bb3eeb8a5dbe073ebd8106774?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fums4Eez19gCpMc-FrRdaUQzM9UrRck1oKfzhWMVpKzjkOh0uyNCvdYj-7cDddAGK7J~jiQJLw64n~a0Z59Ku6ftKfADuJ~COwuCR4Bq1STd7fB002d4jWISsOFnGyhk4G5diWbTZwzWlVl5Vf~miFY66iVpsKmFBGeGMvZAWEboSrql3VpQdLvOnT5mvvmEWf~kR7A0J2UFDSb76PUtr8Qf~HrbHxiu-qimzL4dg9B5K9DW3aqbeLvUA12oEW1n1sfYijkpunwKAufLQzi3zyj6P8m1Pc67n9mI00IMKf~ZN8HHqEWdS65~nusUHoduQ72FzrVJNlgGB0O80PuPLg__');
+  background-size: 24vw 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* Scrollbar track */
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Scrollbar track background */
+.sidebar::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+/* Scrollbar thumb (scroll handle) */
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: transparent; 
+  border-radius: 10px;
+  border: 2px solid transparent; 
+}
+
+/* Scrollbar on hover */
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background-color: transparent;
+}
+
+/* Scrollbar corner styling for both axes */
+.sidebar::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+.sidebar-content{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 140px 0 0 0;
+  gap: 16px;
+}
+
+.sidebar-flex-item{
+width: 100;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 10px;
+}
+.sidebar-flex-item img{
+width: 24px;
+height: 24px;
+}
+.sidebar-flex-item span{
+  font-family: Yaldevi Colombo Medium;
+  font-size: 16px;
+  font-weight: 500;
+  text-shadow: 
+    -1px 0 #000, 
+     1px 0 #000,  
+     0 -1px #000,
+     0 1px #000;
+     color: #F0DCAE;
+}
+
+.plus-text-absolute{
+  position: absolute;
+  color: #FF0E0E !important;
+  top: 2px;
+  left: 12px;
+  font-size: 22px;
+  text-shadow: 
+  -1px 0 #000, 
+   1px 0 #000,  
+   0 -1px #000,
+   0 1px #000;
+   color: #F0DCAE;
+}
+
+.level-circle{
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #E0A51D;
+  font-family: MedievalSharp;
+font-size: 18px;
+font-weight: 500;
+background: #5B465E;
+border: 1px solid #F0DCAE
+}
+
+.level-circle-frame{
+  position: absolute;
+  top: 42px;
+  left: 30px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #E0A51D;
+  font-family: MedievalSharp;
+font-size: 32px;
+font-weight: 500;
+background: #5B465E;
+border: 1px solid #F0DCAE;
+z-index: 10;
+}
+
+.profile-element{
+  width: 150px;
+  height: 44px !important;
+  display: flex;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: 8px;
+  padding: 0 8px;
+  font-size: 20px;
+}
+.profile-element img{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+border: 1px solid #000000
+}
+
+.sidebar-bottom-icons{
+  position: relative;
+  bottom: -80px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.sidebar-bottom-icons img{
+width: 30px;
+height: 30px;
+}
