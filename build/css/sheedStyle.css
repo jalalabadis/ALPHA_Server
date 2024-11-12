@@ -1,0 +1,101 @@
+.sheed-had-items{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 45px;
+    background: #2b2a2a;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 25px 2px 15px;
+}
+
+.sheed-right-head{
+    width: 50%;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+justify-content: space-between;
+}
+
+.sheed-right-head button, label{
+color: #ffffff;
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-size: 14px;
+gap: 8px;
+}
+
+.sheed-right-head button span{
+font-size: 16px;
+}
+.sheed-right-head label span{
+    font-size: 16px;
+    }
+
+.sheed-left-head{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+}
+.morning-save-button{
+display: flex;
+align-items: center;
+justify-content:center;
+font-size: 14px;
+gap: 2px;
+pointer-events: none;
+width: 80px;
+height: 20px;
+border-radius: 5px;
+}
+.morning-save-button.active{
+    color: #ffffff;
+    background: #b8b8b894;
+    pointer-events: painted;
+}
+.btn-selected-item-sheet{
+color: #ffffff;
+font-size: 14px;
+width: auto;
+height: 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.reander-and-other-list{
+position: absolute;
+top: 35px;
+left: 80px;
+width: 140px;
+height: 160px;
+z-index: 5;
+background: #525050;
+border-radius: 8px;
+padding: 10px;
+display: flex;
+flex-direction: column;
+gap: 18px;
+align-items: flex-start;
+justify-content: center;
+}
+
+.reander-and-other-list button{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 12px;
+}
+
+.stripe-card-element-longs{
+    min-width: 420px;
+    height: auto;
+    background-color: #1e5ac931;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.stripe-card-element-longs input:focus {
+    color: #32325d;
+  }

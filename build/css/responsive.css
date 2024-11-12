@@ -1,0 +1,5 @@
+@media only screen and (max-width: 600px) {
+    .ads-genie-auth-right-promo{
+        display: none;
+    }
+  }
