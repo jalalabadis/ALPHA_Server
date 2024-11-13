@@ -1,17 +1,18 @@
 const calculateUserStats=(userStats)=> {
     /////XP অনুযায়ী Level
+    let xp = userStats.xp;
     let level = 0;
-    let currentXP = 100;
-    const growthFactor = 1.5;
-    let userXP = userStats.xp;
+    let requiredXp = 100; // লেভেল ১ এর জন্য প্রয়োজনীয় xp
+    let multiplier = 2.5; // প্রতি লেভেলের জন্য xp এর প্রয়োজনীয়তা বাড়ানোর রেশিও
+    let totalXpNeeded = requiredXp; // মোট xp যা লেভেলে যেতে লাগবে
 
-    while (userXP >= currentXP) {
-        userXP -= currentXP;
+    while (xp >= requiredXp) {
         level++;
-        currentXP = 100 * Math.pow(growthFactor, level);
+        xp -= requiredXp;
+        requiredXp = Math.floor(requiredXp * multiplier);
+        totalXpNeeded += requiredXp; // পরবর্তী লেভেলে যেতে প্রয়োজনীয় মোট xp যোগ করলাম
     }
-    let nextLevelXP = currentXP;
-    
+
 
 
     // Strength অনুযায়ী ড্যামেজ রেঞ্জ
@@ -29,7 +30,7 @@ const calculateUserStats=(userStats)=> {
     // ফলাফল প্রদান
     return {
         level: level,
-        nextLevelXP: nextLevelXP.toFixed(),
+        nextLevelXP: totalXpNeeded,
         damageRange: `${minDamage}-${maxDamage}`,
         healthPoints: healthPoints,
         critChance: `${critChance.toFixed()}`
